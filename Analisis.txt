@@ -1,0 +1,30 @@
+
+Análisis del Grupo 1: Imagen Original vs. Imagen Suavizada
+Espectro de la Imagen Original:
+Muestra una distribución amplia de frecuencias con una cruz brillante en el centro que representa los componentes principales de la imagen (las líneas verticales y horizontales predominantes en el arco). La presencia de un fondo con texturas y puntos brillantes alejados del centro demuestra la riqueza de detalles finos, bordes nítidos y transiciones bruscas (altas frecuencias).
+
+Espectro de la Imagen Suavizada:
+Al aplicar el filtro de suavizado (pasa-bajas), se observa una pérdida drástica de las frecuencias más altas, lo cual se evidencia visualmente porque las zonas externas y periféricas del espectro se oscurecen sustancialmente.
+
+Efecto de "Líneas Marcadas" en la Cruz Central:
+La cruz central del espectro suavizado se vuelve mucho más gruesa y contrastada (con bandas paralelas brillantes). Esto ocurre porque el filtro de suavizado elimina las variaciones rápidas de gris en los bordes, dejando únicamente las variaciones lentas y continuas (bajas frecuencias). Como resultado, la energía de la imagen se comprime y se concentra exclusivamente a lo largo de los ejes principales del dominio frecuencial.
+
+Análisis del Grupo 2: Imagen con Ruido vs. Imagen Trasladada
+Espectro de la Imagen con Ruido:
+La imagen espacial presenta un ruido denso de tipo "sal y pimienta" o granulado. En su Espectro de Fourier se observa un fondo general mucho más claro, brillante y homogéneo en comparación con el espectro original. Esto ocurre porque el ruido introduce transiciones de píxeles extremadamente abruptas y aisladas que se traducen en componentes de alta frecuencia distribuidos uniformemente por todo el plano espectral, incrementando la energía de fondo.
+
+Espectro de la Imagen Trasladada:
+El desplazamiento o traslación cíclica de la estructura en el espacio altera la posición visual del arco, pero el Espectro de Fourier de la magnitud permanece prácticamente idéntico al de la imagen original.
+
+Conclusión de la Propiedad de Traslación:
+Este resultado demuestra visualmente el teorema de traslación de la Transformada de Fourier (invarianza al desplazamiento). Un cambio de posición en el dominio del espacio solo afecta a la información de la fase (la cual no se representa aquí), mientras que la distribución de magnitudes de las frecuencias se mantiene intacta.
+
+Análisis del Grupo 3: Imagen Perfilada, Rotada y Reducida
+Espectro de la Imagen Perfilada (Filtro Pasa-Altas / Realce de Bordes):
+Al resaltar los contornos y detalles finos, se eliminan las variaciones lentas de intensidad (áreas homogéneas). En su Espectro de Fourier se observa que el centro del espectro se atenúa (se vuelve más oscuro), mientras que las altas frecuencias en las zonas periféricas se vuelven más brillantes y definidas, reflejando el incremento de energía en los cambios bruscos y bordes de la estructura.
+
+Espectro de la Imagen Rotada (Propiedad de Rotación):
+En la imagen espacial, el arco presenta una clara inclinación hacia la izquierda. En consecuencia, la cruz brillante del Espectro de Fourier rota exactamente en el mismo ángulo que la imagen original. Esto demuestra visualmente la propiedad de la transformada, donde una rotación en el dominio espacial produce una rotación idéntica en el dominio de la frecuencia.
+
+Espectro de la Imagen Reducida (Propiedad de Escalamiento Inverso):
+Al reducir las dimensiones espaciales de la imagen, los detalles se comprimen y se vuelven más densos en términos de píxeles. Siguiendo la ley de proporcionalidad inversa de Fourier, el espectro resultante se expande notablemente, mostrando un patrón de frecuencias mucho más abierto, espaciado y "pixelado" en comparación con el espectro original.

@@ -1,0 +1,36 @@
+Resumen de Claves: Transformada de Fourier
+Grupo 1: Suavizada
+
+Clave: Filtro Pasa-Bajas.
+
+Efecto: Se eliminan los detalles y bordes. El espectro pierde las altas frecuencias (se oscurece en los bordes externos) y concentra toda su energía en una cruz central más gruesa y marcada (bajas frecuencias).
+
+Grupo 2: Con Ruido
+
+Clave: Alta frecuencia aleatoria.
+
+Efecto: El ruido introduce cambios bruscos pixel a pixel. El espectro muestra un fondo grisáceo uniforme y brillante en las zonas periféricas, llenándose de componentes de alta frecuencia por todo el plano.
+
+Grupo 2: Trasladada
+
+Clave: Invarianza a la traslación.
+
+Efecto: Mover el objeto en el espacio no cambia su contenido de frecuencias. La magnitud del espectro se mantiene idéntica al original; el cambio solo ocurre en la fase (no visible).
+
+Grupo 3: Perfilada
+
+Clave: Filtro Pasa-Altas.
+
+Efecto: Se resaltan bordes y se eliminan áreas homogéneas. El espectro atenúa su centro (bajas frecuencias) y vuelve mucho más brillantes y definidas las zonas externas (altas frecuencias).
+
+Grupo 3: Rotada
+
+Clave: Propiedad de rotación.
+
+Efecto: Existe una relación directa de orientación. Si la imagen espacial rota un ángulo determinado, los ejes del espectro de Fourier rotan exactamente en el mismo ángulo.
+
+Grupo 3: Reducida
+
+Clave: Escalamiento inverso.
+
+Efecto: Al encoger la imagen en el espacio, los detalles se vuelven más densos. Por ley inversa, el espectro de Fourier se expande, mostrando un patrón de frecuencias más amplio, abierto y espaciado.
